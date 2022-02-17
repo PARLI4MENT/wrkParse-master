@@ -18,7 +18,7 @@ namespace GenNumers
 
         public void Gen(uint startPoint = 0, uint endPoint = 9999999)
         {
-            Console.WriteLine($"\n==== Generate ny Masked {format} ====");
+            Console.WriteLine($"\n==== Generate by Masked {format} ====");
 
             result = new List<string>();
             for (int i = (int)startPoint; i <= (int)endPoint; i++)
